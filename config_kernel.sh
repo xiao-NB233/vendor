@@ -1,6 +1,6 @@
 #! /bin/bash
 
-BUILD_DIR=/work/qemu_linux/linux-5.15.43
+BUILD_DIR=../kernel_for_study
 if [ ! -z $1 ]
 then
 	BUILD_DIR=$1
