@@ -6,6 +6,7 @@ qemu-system-aarch64 \
         -smp 4 \
         -kernel ./image/Image \
         -initrd ./ramdisk/rootfs.cpio.gz \
+        -dtb	./dtb/test.dtb \
         --append "nokaslr console=ttyAMA0 rdinit=/linuxrc" \
 	-S \
 	-gdb tcp::1234

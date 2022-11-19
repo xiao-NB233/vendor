@@ -17,3 +17,5 @@ cd ../dts
 ./mk_dtb.sh
 
 cd ../../build
+
+echo "********************到./out/platfrom1/目录下运行start_kernel.sh, open_gdb.sh脚本*************************"
